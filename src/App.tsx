@@ -1,4 +1,12 @@
+import ToggleTheme from "./presentation/components/ToggleTheme";
+
 const App = () => {
-  return <button className="btn">click me</button>;
+  return (
+    <div>
+      <button className="btn">click me</button>
+
+      <ToggleTheme />
+    </div>
+  );
 };
 export default App;
